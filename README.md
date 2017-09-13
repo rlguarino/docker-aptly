@@ -10,7 +10,7 @@ For more information, check out https://www.aptly.info/
 * To pull: `docker pull isim/aptly`
 * To build: `docker build --rm -t isim/aptly .`
 * To run: `docker run --rm isim/aptly <aptly-command>`
-* To serve the aptly API: `docker run -d -p 8080:8080 isim/aptly api server`
+* To serve the aptly API: `docker run -d -p 8080:8080 isim/aptly api serve`
 
 ## License
 Refer to the [LICENSE](LICENSE) file.
